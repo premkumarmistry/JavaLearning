@@ -1,17 +1,20 @@
-//Use Of ScannerClass to take a integer Input
+
 import java.util.*;
 class HelloWorld {
+
     public static void main(String[] args) {
-   
-      
-     System.out.println("Enter Your Age");  
+     
     Scanner sc = new Scanner(System.in);
+    //Taking Interger As Input  
+    System.out.println("Enter Your Age");  
     int a =sc.nextInt();
-      System.out.println("Your Age is "+a);  
+    System.out.println("Your Age is "+a);  
       
+    //Taking String As Input  
       
-      
-      
+    System.out.println("Enter Your Name");  
+   String str= sc.next();
+    System.out.println("Your Name is "+str);  
         
         
     }
